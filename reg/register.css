@@ -1,69 +1,75 @@
 * {
-    color: #ddd;
-    margin-right:auto;
-    margin-left:auto;
-    width: 100%;
-    text-decoration: none;
-    border: none;
-    border-radius: 6px;
-    box-sizing: border-box;
-    }
-  
-  .heading {
-      font-family:'Palatino';
-      text-align:center;
-      margin-top:10%;
-      margin-bottom:5%;
-  }
-  
-  /*Input fields*/
-  input[type=text], input[type=password] {
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-  }
-  
-  /*Submit button*/
-  .btn {
-    background-color: #51a6c7;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.9;
-    font-size: 17px;
-  }
-  
-  /*Blue text color for links*/
-  a {
-    color: rgb(70, 154, 238);
-  }
-  
-  input:hover, .btn:hover{
-    opacity: 1;
-  }
-  
-  /* Overwrite default styles of hr */
-  .hr {
-    margin-bottom: 25px;
-    text-align: left;
-  }
-  
-  .container {
-    text-align: center;
-    margin-top: 10%;
-    height: 5%;
-    width: 40%;
-    font-size: 17px;
-  }
-  
-  /* style inputs and link buttons */
-  input{
-    padding: 2%;
-    opacity: 0.9;
-    display: inline-block;
-    font-size: 17px;
-  }
-  
-  input:hover, .btn:hover{
-    opacity: 1;
-  }
+  color: #ddd;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.reg {
+  background: url(images/greymountain.jpeg);
+  height: 753px;
+}
+.container {
+  text-align: center;
+  padding-top: 60px;
+  height: 5%;
+  width: 35%;
+  font-size: 17px;
+}
+.heading {
+  font-family: "Palatino";
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+input[type="text"],
+input[type="password"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+}
+.btn {
+  background-color: #51a6c7;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 17px;
+}
+p {
+  padding-top: 30px;
+}
+a {
+  color: rgb(15, 108, 202);
+}
+a:hover {
+  color: rgb(154, 154, 230);
+}
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+.hr {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+/* style inputs and link buttons */
+input {
+  padding: 2%;
+  opacity: 0.9;
+  display: inline-block;
+  font-size: 17px;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
